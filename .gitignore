@@ -15,7 +15,9 @@ saved_model/*.pbtxt
 
 # Notebook checkpoints
 .ipynb_checkpoints/
-notebooks/
+notebooks/*
+!notebooks/mood_music.ipynb
+
 *.ipynb
 
 # Saved models / weights
