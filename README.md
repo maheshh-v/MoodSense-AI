@@ -74,10 +74,10 @@ The upcoming deployable app will allow users to:
    surprise : 0.91
 
 
-- **Confusion Matrix Sample:**
+<!-- - **Confusion Matrix Sample:**
 ![confusion-matrix](/notebooks/confusion_matrix.png) *(Confusion Matrix – GloVe + Dropout
 Nails sadness and love, but mixes up close ones like joy vs. love and fear vs. surprise. Next up: smarter BERT-based model)*
-
+… -->
 ---
 
 ## 🛠 Tech Stack
