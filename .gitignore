@@ -1,0 +1,30 @@
+*.pyc
+__pycache__/
+*.ipynb_checkpoints
+*.h5
+*.pb
+*.pbtxt
+*.ckpt
+saved_model/variables/
+saved_model/*.pb
+saved_model/*.pbtxt
+*.log
+*.idea/
+
+# .gitignore
+
+# Notebook checkpoints
+.ipynb_checkpoints/
+notebooks/
+*.ipynb
+
+# Saved models / weights
+saved_model/
+
+*.pt
+*.pth
+*.pkl
+
+# Virtual env
+venv/
+*.egg-info/

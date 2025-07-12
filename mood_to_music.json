@@ -1,0 +1,32 @@
+{
+  "joy": [
+    {"title": "Happy - Pharrell Williams", "url": "https://open.spotify.com/track/60nZcImufyMA1MKQY3dcCH"},
+    {"title": "Can't Stop the Feeling! - Justin Timberlake", "url": "https://open.spotify.com/track/6JV2JOEocMgcZxYSZelKcc"},
+    {"title": "Uptown Funk - Mark Ronson ft. Bruno Mars", "url": "https://open.spotify.com/track/32OlwWuMpZ6b0aN2RZOeMS"}
+  ],
+  "sadness": [
+    {"title": "Fix You - Coldplay", "url": "https://open.spotify.com/track/7LVHVU3tWfcxj5aiPFEW4Q"},
+    {"title": "Let Her Go - Passenger", "url": "https://open.spotify.com/track/2pUpNOgJBIBCcjyQZQ00qU"},
+    {"title": "Someone Like You - Adele", "url": "https://open.spotify.com/track/4kflIGfjdZJW4ot2ioixTB"}
+  ],
+  "love": [
+    {"title": "All of Me - John Legend", "url": "https://open.spotify.com/track/3U4isOIWM3VvDubwSI3y7a"},
+    {"title": "Perfect - Ed Sheeran", "url": "https://open.spotify.com/track/0tgVpDi06FyKpA1z0VMD4v"},
+    {"title": "Just the Way You Are - Bruno Mars", "url": "https://open.spotify.com/track/7BqBn9nzAq8spo5e7cZ0dJ"}
+  ],
+  "anger": [
+    {"title": "Break Stuff - Limp Bizkit", "url": "https://open.spotify.com/track/5cZqsjVs6MevCnAkasbEOX"},
+    {"title": "Killing In The Name - Rage Against The Machine", "url": "https://open.spotify.com/track/59WN2psjkt1tyaxjspN8fp"},
+    {"title": "Given Up - Linkin Park", "url": "https://open.spotify.com/track/400lQTCx3wYGgqAIHSZbNA"}
+  ],
+  "fear": [
+    {"title": "Disturbia - Rihanna", "url": "https://open.spotify.com/track/2VOomzT6VavJOGBeySqaMc"},
+    {"title": "Creep - Radiohead", "url": "https://open.spotify.com/search/creep"},
+    {"title": "Everybody's Got to Learn Sometime - Beck (Eternal Sunshine OST)", "url": "https://open.spotify.com/track/1bP8oWk4crQOlwlG5DKeGY"}
+  ],
+  "surprise": [
+    {"title": "Surprise Yourself - Jack Garratt", "url": "https://open.spotify.com/track/1ukI7i3fps8zaBlEf18v0l"},
+    {"title": "Don't Stop Me Now - Queen", "url": "https://open.spotify.com/track/0DrDcqWpokMlhKYJSwoT4B"},
+    {"title": "Feel Good Inc. - Gorillaz", "url": "https://open.spotify.com/track/0d28khcov6AiegSCpG5TuT"}
+  ]
+}
