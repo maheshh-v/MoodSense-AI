@@ -80,7 +80,7 @@ Nails sadness and love, but mixes up close ones like joy vs. love and fear vs. s
 … -->
 ---
 
-## 🛠 Tech Stack
+##  Tech Stack
 
 - Python (3.10)
 - TensorFlow / Keras
@@ -92,7 +92,7 @@ Nails sadness and love, but mixes up close ones like joy vs. love and fear vs. s
 
 ---
 
-## 📌 What's Next
+##  What's Next
 
 -  **Spotify API Integration**: Fetch top 3 songs live using user's mood
 - **Deploy Full Web App** (Streamlit + Hosted link for recruiters)
@@ -121,4 +121,13 @@ Actively seeking AI/ML Internship roles where learning meets impact.
 
 > _“This project showcases strong practical understanding of deep learning, critical thinking in design, thoughtful evaluation, and real deployment mindset — not just copy-paste ML.”_
 
+
+
+#  New in Version 2.0
+
+-  BERT-powered emotion detection
+- 🎵 Real-time Spotify song suggestions based on mood
+-  Confidence scores visualized
+-  .env based credential management
+-  Optimized and cleaned for production
 
