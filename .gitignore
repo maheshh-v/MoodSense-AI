@@ -18,7 +18,7 @@ saved_model/*.pbtxt
 notebooks/*
 !notebooks/mood_music.ipynb
 
-*.ipynb
+
 
 # Saved models / weights
 saved_model/
