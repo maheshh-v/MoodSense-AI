@@ -11,6 +11,10 @@ saved_model/*.pbtxt
 *.log
 *.idea/
 
+
+.env
+saved_model/__pycache__/
+
 # .gitignore
 
 # Notebook checkpoints
