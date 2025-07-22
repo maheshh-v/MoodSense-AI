@@ -11,6 +11,10 @@ saved_model/*.pbtxt
 *.log
 *.idea/
 
+
+.env
+saved_model/__pycache__/
+
 # .gitignore
 
 # Notebook checkpoints
@@ -18,7 +22,7 @@ saved_model/*.pbtxt
 notebooks/*
 !notebooks/mood_music.ipynb
 
-*.ipynb
+
 
 # Saved models / weights
 saved_model/
