@@ -1,67 +1,22 @@
 # Environment variables
 .env
-.env.local
-.env.*.local
 
-# Python
+# Python stuff
 __pycache__/
-*.py[cod]
-*$py.class
-*.so
-.Python
-build/
-develop-eggs/
-dist/
-downloads/
-eggs/
-.eggs/
-lib/
-lib64/
-parts/
-sdist/
-var/
-wheels/
-share/python-wheels/
-*.egg-info/
-.installed.cfg
-*.egg
-PIPFILE.lock
-
-# Virtual environments
+*.pyc
 venv/
-env/
-ENV/
-env.bak/
-venv.bak/
 
-# IDE
-.vscode/
-.idea/
-*.swp
-*.swo
-*~
-
-# Jupyter Notebook
-.ipynb_checkpoints
-
-# Model files 
+# Model files - too big for git
 saved_model/
 *.h5
-*.pkl
 
-# Logs
-*.log
-logs/
+# IDE files
+.vscode/
+.idea/
 
 # Cache
 .cache/
-.pytest_cache/
 
-# OS
+# OS files
 .DS_Store
-.DS_Store?
-._*
-.Spotlight-V100
-.Trashes
-ehthumbs.db
 Thumbs.db

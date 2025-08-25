@@ -1,108 +1,72 @@
-🎵 MoodSense AI
-A high-performance emotion detection system that analyzes text and recommends personalized Spotify music. This project fine-tunes a DistilBERT Transformer model to achieve over 92% accuracy.
+# MoodSense AI
 
-Live Demo
-(It's highly recommended to add a GIF of your Streamlit app in action here. You can use a tool like Giphy Capture or ScreenToGif.)
+This is my emotion detection project that recommends Spotify music based on your mood. I built this to learn about NLP and transformers.
 
-Features
-State-of-the-Art Emotion Detection: Fine-tunes a DistilBERT Transformer model for highly accurate emotion classification.
+## What it does
 
-Real-time Music Recommendations: Integrates directly with the Spotify Web API for relevant, mood-based song suggestions.
+- Detects emotions from text (joy, sadness, anger, fear, love, surprise)
+- Uses DistilBERT model for classification 
+- Recommends songs from Spotify based on detected mood
+- Web interface with Streamlit
 
-Interactive Web Interface: A clean and intuitive user interface built with Streamlit.
+## How to run
 
-Proven Performance: Achieves 92.95% accuracy on the test dataset.
+1. Clone the repo:
+```bash
+git clone https://github.com/maheshh-v/MoodSense-AI.git
+cd MoodSense-AI
+```
 
-🛠️ Tech Stack
-Machine Learning: TensorFlow, Hugging Face (Transformers, Datasets)
-
-Web Framework: Streamlit
-
-API Integration: Spotify Web API (via Spotipy)
-
-Data Processing: NumPy, Pandas
-
-Code Quality: Pytest for unit testing
-
-📁 Project Structure
-A clean, modular structure for maintainability and clarity.
-
-moodsense_ai/
-├── app.py                 # The main Streamlit application file
-├── main.py                # Script to train and save the model
-├── preprocessing.py       # Data loading and preparation functions
-├── model.py               # Model architecture functions (BERT/LSTM)
-├── spotify_client.py      # Handles all Spotify API interactions
-├── test_preprocessing.py  # Unit tests for the preprocessing functions
-├── saved_model/           # Directory for the saved trained model & tokenizer
-├── .env                   # File for environment variables (API keys)
-├── requirements.txt       # Project dependencies
-└── README.md              # You are here!
-
-🔧 Installation & Setup
-Clone the repository:
-
-git clone https://github.com/maheshh-v/moodsense_ai.git
-cd moodsense_ai
-
-Create and activate a virtual environment:
-
-python -m venv venv
-source venv/bin/activate  # On Windows: venv\Scripts\activate
-
-Install dependencies:
-
+2. Install stuff:
+```bash
 pip install -r requirements.txt
+```
 
-Set up environment variables: Create a .env file in the root directory and add your Spotify API credentials:
+3. Add your Spotify API keys to `.env` file:
+```
+SPOTIFY_CLIENT_ID=your_id_here
+SPOTIFY_CLIENT_SECRET=your_secret_here
+```
 
-SPOTIFY_CLIENT_ID="your_spotify_client_id"
-SPOTIFY_CLIENT_SECRET="your_spotify_client_secret"
+4. Train the model:
+```bash
+python scripts/train_model.py
+```
 
- Usage
-Train the Model: First, run the main script to fine-tune and save the BERT model.
+5. Run the app:
+```bash
+streamlit run app/streamlit_app.py
+```
 
-python main.py
+## Project Structure
 
-Run the Web Application: Once the model is saved, launch the Streamlit app.
+```
+src/
+├── models/          # BERT and LSTM models
+├── data/           # Data preprocessing 
+├── services/       # Spotify API client
+app/                # Streamlit web app
+scripts/            # Training script
+tests/              # Unit tests
+```
 
-streamlit run app.py
+## Tech Stack
 
-Run Tests (Optional): To verify the data preprocessing logic, run the unit tests.
+- TensorFlow & Transformers for ML
+- Streamlit for web interface  
+- Spotify Web API for music
+- Pytest for testing
 
-pytest
+## Results
 
- Model Performance
-Model: DistilBERT (fine-tuned)
+The DistilBERT model gets around 85%+ accuracy on emotion classification.
 
-Accuracy: 92.95% on the test set
+## Author
 
-Emotions Classified: Joy, Sadness, Anger, Fear, Love, Surprise
-
-🤝 Contributing
-Contributions are welcome! Please feel free to fork the repository, create a feature branch, and open a Pull Request.
-
-Fork the Project
-
-Create your Feature Branch (git checkout -b feature/AmazingFeature)
-
-Commit your Changes (git commit -m 'Add some AmazingFeature')
-
-Push to the Branch (git push origin feature/AmazingFeature)
-
-Open a Pull Request
-
-
-👨‍💻 Author
 Mahesh Vyas
+- GitHub: [@maheshh-v](https://github.com/maheshh-v)
+- LinkedIn: [mahesh-vyas](https://www.linkedin.com/in/mahesh-vyas-88ab41188)
 
-GitHub: @maheshh-v
+## Credits
 
-LinkedIn: www.linkedin.com/in/mahesh-vyas-88ab41188
-
-🙏 Acknowledgments
-Hugging Face for their incredible transformers and datasets libraries.
-
-Spotify for providing a feature-rich Web API.
-
-The Streamlit team for making web app development in Python so accessible.
+Thanks to Hugging Face for the transformers library and Spotify for their API.

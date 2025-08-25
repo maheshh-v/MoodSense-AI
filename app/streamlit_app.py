@@ -5,13 +5,12 @@ import numpy as np
 import sys
 import os
 
-# Adding src folder to path
+# Adding src folder to path - needed for imports
 sys.path.append(os.path.join(os.path.dirname(__file__), '..', 'src'))
-
 
 from services.spotify_client import get_top_songs_for_mood
 
-# --- Configuration 
+# Configuration
 MODEL_DIR = os.path.join(os.path.dirname(__file__), '..', 'saved_model')
 
 # --- Caching Models for Performance
