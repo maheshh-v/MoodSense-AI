@@ -64,7 +64,7 @@ tests/              # Unit tests
 
 ## Results
 
-The DistilBERT model gets around 85%+ accuracy on emotion classification.
+The fine-tuned DistilBERT model achieves **92.95% accuracy** on emotion classification.
 
 ## Author
 
