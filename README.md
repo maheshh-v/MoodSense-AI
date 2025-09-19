@@ -1,5 +1,7 @@
 # MoodSense AI
 
+### Personalized Recommendation Engine for Content Discovery
+
 This is my emotion detection project that recommends Spotify music based on your mood. I built this to learn about NLP and transformers.
 
 ## Live Demo
